@@ -1,0 +1,17 @@
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\Mono.Cecil.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\Mono.Cecil.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_obj\Debug\2Dtelecom.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Projet Unity\2D\2Dtelecom\Temp\UnityVS_obj\Debug\Assembly-CSharp-firstpass.pdb
