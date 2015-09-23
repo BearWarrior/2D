@@ -77,7 +77,8 @@
     <Compile Include="Assets\Script\Camera2DFollow.cs" />
     <Compile Include="Assets\Script\HUD.cs" />
     <Compile Include="Assets\Script\Inventaire.cs" />
-    <Compile Include="Assets\Script\Menu.cs" />
+    <Compile Include="Assets\Script\Menu\ButtonWithTooltip.cs" />
+    <Compile Include="Assets\Script\Menu\Menu.cs" />
     <Compile Include="Assets\Script\Objet\Arme\Arme.cs" />
     <Compile Include="Assets\Script\Objet\Consommable\Consommable.cs" />
     <Compile Include="Assets\Script\Objet\Consommable\Ration.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Script\Personnage\Personnage.cs" />
     <Compile Include="Assets\Script\Platformer2DUserControl.cs" />
     <Compile Include="Assets\Script\PlatformerCharacter2D.cs" />
+    <Compile Include="Assets\Script\Utilities\MousePos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Fonts\siteFonts.txt" />
