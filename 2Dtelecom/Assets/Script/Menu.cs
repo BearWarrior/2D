@@ -94,7 +94,7 @@ public class Menu : MonoBehaviour
         int tailleTotale = toDisplay.Length;
         string stringRetour = "";
         int k = 0;
-        for (int i = 0; i < currentState;  i += (dureeAffich / tailleTotale))
+        for (int i = 0; i < currentState;  i += (dureeAffich / tailleTotale) + 1)
         {
             Debug.Log(" i = " + i.ToString() + "currentstate = " + currentState.ToString());
             stringRetour += toDisplay[k];
