@@ -46,7 +46,7 @@ public class Menu : MonoBehaviour
         boutonOptionsGraphiques.setDisplayed(true);
 
         boutonOptionsAudios = gameObject.AddComponent<ButtonWithTooltip>();
-        boutonOptionsAudios.init("> Options audios", "No tooltuip", new Rect(50 + Screen.width / 3, Screen.height / 3, 400, 50), 1500);
+        boutonOptionsAudios.init("> Options audios   ", "No tooltuip", new Rect(50 + Screen.width / 3, Screen.height / 3, 400, 50), 1500);
         boutonOptionsAudios.setDisplayed(true);
     }
 
@@ -67,6 +67,11 @@ public class Menu : MonoBehaviour
             boutonOptionsGraphiques.setDisplayed(false);
         }
 
+
+        if(boutonOptions.getIsClicked())
+        {
+
+        }
         // Button1 : if souris dessus, afficher tooltip; snon, pas afficher, et remettre compteur a 0
        
     }

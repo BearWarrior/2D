@@ -79,6 +79,7 @@
     <Compile Include="Assets\Script\Inventaire.cs" />
     <Compile Include="Assets\Script\Menu\ButtonWithTooltip.cs" />
     <Compile Include="Assets\Script\Menu\Menu.cs" />
+    <Compile Include="Assets\Script\Menu\MenuOptionsGraphiques.cs" />
     <Compile Include="Assets\Script\Objet\Arme\Arme.cs" />
     <Compile Include="Assets\Script\Objet\Consommable\Consommable.cs" />
     <Compile Include="Assets\Script\Objet\Consommable\Ration.cs" />
