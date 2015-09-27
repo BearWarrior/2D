@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Menu : MonoBehaviour
 {
-    private Rect rectMenu;
 
     private ButtonWithTooltip boutonJouer;
     private ButtonWithTooltip boutonOptions;
@@ -12,6 +11,7 @@ public class Menu : MonoBehaviour
 
     private ButtonWithTooltip boutonOptionsGraphiques;
     private ButtonWithTooltip boutonOptionsAudios;
+
 
     private GUISkin skin1; // GUI skin
 
@@ -25,8 +25,6 @@ public class Menu : MonoBehaviour
         skin1 = Resources.Load("Menu/Menu") as GUISkin;
         
 
-        // rect De la fenetre principale, poura fficher l'image de fond et le texte principal
-        rectMenu = new Rect(4 * Screen.width / 5 , 2* Screen.height / 3, 400, 100);
 
         //rect du 1er bouton
         boutonJouer = gameObject.AddComponent<ButtonWithTooltip>();
@@ -48,6 +46,7 @@ public class Menu : MonoBehaviour
         boutonOptionsAudios = gameObject.AddComponent<ButtonWithTooltip>();
         boutonOptionsAudios.init("> Options audios   ", "No tooltuip", new Rect(50 + Screen.width / 3, Screen.height / 3, 400, 50), 1500);
         boutonOptionsAudios.setDisplayed(true);
+        
     }
 
     // Update is called once per frame
@@ -68,9 +67,9 @@ public class Menu : MonoBehaviour
         }
 
 
-        if(boutonOptions.getIsClicked())
+        if(boutonOptionsGraphiques.getState())
         {
-
+            Application.LoadLevel("MenuOptionsGraphiques");
         }
         // Button1 : if souris dessus, afficher tooltip; snon, pas afficher, et remettre compteur a 0
        
@@ -81,7 +80,7 @@ public class Menu : MonoBehaviour
     {
         GUI.skin = skin1;
         // Box prionc + ecran
-         GUI.Box(rectMenu, "MENU");
+         GUI.Box(new Rect(4 * Screen.width / 5, 2 * Screen.height / 3, 400, 100), "MENU");
         
     }
 
